@@ -11,7 +11,7 @@ export default defineConfig({
     tailwindcss(),
     cesium()
   ],
-  base:"/PS-227",
+  // base:"/PS-227",
 
 })
 
