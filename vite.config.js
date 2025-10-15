@@ -10,7 +10,7 @@ export default defineConfig({
     tailwindcss(),
     cesium()
   ],
-  base:PROCESS.env.VITE_BASE_PATH ||"/PS-227"
+  base:Process.env.VITE_BASE_PATH ||"/PS-227",
 
 })
 
