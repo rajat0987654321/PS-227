@@ -24,7 +24,9 @@ function App() {
   return (
   <>
     <Routes>
+
       <Route path="/PS-227" element={<Home/>} />
+      <Route path="/" element={<Home/>} />
       <Route path="/AnalysisTools" element={<AnalysisTools/>} />
       <Route path="/DashboardSection" element={<DashboardSection/>} />
       <Route path="/SecureData" element={<SecureData/>} />
