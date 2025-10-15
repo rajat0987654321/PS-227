@@ -6,12 +6,16 @@ import cesium from "vite-plugin-cesium"
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),
+  plugins: [
+    react(),
     tailwindcss(),
     cesium()
   ],
-  base:process.env.VITE_BASE_PATH ||"/PS-227",
+  base: process.env.VITE_BASE_PATH || "/PS-227",
+  define: {
+    'process.env': process.env
+  }
+});
 
-})
 
 
