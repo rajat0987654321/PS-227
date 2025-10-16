@@ -3,7 +3,7 @@ import Navber from './Navber'
 import HeroSection from './HeroSection'
 import AnalysisTools from '../componants/AnalysisTools'
 import DashboardSection from '../componants/DashboardSection'
-import SecureData from '../componants/SecureData'
+// import SecureData from '../componants/SecureData'
 import Contact from '../componants/Contact'
 import Footer from './Footer'
 
@@ -14,7 +14,7 @@ function Home() {
       <HeroSection/>
       <AnalysisTools/>
       <DashboardSection/>
-        <SecureData/>
+        {/* <SecureData/> */}
         <Contact/>
          <Footer />
     </section>
